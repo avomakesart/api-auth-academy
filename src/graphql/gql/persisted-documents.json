@@ -1,0 +1,3 @@
+{
+  "f7ce54c3c19cdf79c0da2c6d9b7845295974417a": "mutation Login($input: Login!) { __typename login(input: $input) { __typename role token } }"
+}
