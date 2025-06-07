@@ -1,7 +1,6 @@
-import { cacheExchange, createClient, fetchExchange } from "@urql/core";
+import { cacheExchange, createClient, fetchExchange, Provider } from "urql";
 import { ReactNode } from "react";
 import { Toaster } from "sonner";
-import { Provider } from "urql";
 
 const client = createClient({
   url: process.env.PUBLIC_API_URL || "http://localhost:4000/query",

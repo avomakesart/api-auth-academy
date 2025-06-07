@@ -1,5 +1,4 @@
 import { LoginForm } from "@/src/components/login-form";
-import { Providers } from "./context/providers";
 import "./styles/globals.css";
 
 const App = () => {
